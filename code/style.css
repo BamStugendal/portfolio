@@ -310,10 +310,13 @@ footer p {
         flex: wrap;
     }
 
-    .project-ctn,
-    .article-ctn {
+    .project-ctn {
         width: 100%;
- 
+    }
+
+    .article-ctn {
+        width: 40%;
+        margin: 15px;
     }
 
     .project-link {
