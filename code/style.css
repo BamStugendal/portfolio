@@ -8,7 +8,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     line-height: 1.6;
-    color: #3C3C3C;
+    color: #292222;
 }
 
 .heading-section h2 {
@@ -112,13 +112,13 @@ main {
     text-align: center;
     box-sizing: border-box;
     background-color: #fff;
+    padding-bottom: 50px;
 }
 
 
 /* Summary section */
 .summary {
     padding-top: 50px;
-    padding-bottom: 50px;
     background-color: #F4F4F4;
 }
 
@@ -129,10 +129,6 @@ main {
 }
 
 /* Tech section */
-.tech {
-    padding-bottom: 20px;
-}
-
 .tech p {
     width: 80%;
     margin: auto;
@@ -178,7 +174,7 @@ main {
     flex-direction: row;
 }
 
-.project-tag h5 {
+.project-tag p {
     padding: 7px;
     margin: 10px 10px 10px 0;
     background-color: #FFC200;
@@ -186,7 +182,7 @@ main {
 }
 
 .project-name {
-    color: #FF907A;
+    color: #d6183b;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -214,15 +210,9 @@ main {
     max-width: 1220px;
 }
 
-/* My thoughts section */
-.my-thoughts {
-    padding-bottom: 50px;
-}
-    
 /* Skills section */
 .skills {
     background-color: #F4F4F4;
-    padding-bottom: 50px;
 }
 
 .skills-list {
@@ -233,14 +223,13 @@ main {
 .skills-list ul {
     text-align: center;
     padding: 0;
-    color: #FF907A;
 }
 
 li {
     font-size: 17px;
     list-style: none;
     line-height: 1.5;
-    color: #3C3C3C;
+    color: #292222;
 }
 
 /* For more section */
@@ -266,8 +255,8 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #fff;
-    background-color: #FF907A;
+    color: #292222;
+    background-color: #FF9079;
     padding: 70px;
     box-sizing: border-box;
 }
@@ -277,7 +266,7 @@ footer h3 {
 
 footer p {
     margin: 0px;
-    color: #fff;
+    color: #292222;
 }
 
 @media screen and (min-width: 600px) {
